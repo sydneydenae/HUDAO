@@ -1,0 +1,24 @@
+
+.container{
+    color: black;
+    font-family: sans-serif;
+   
+}
+
+.heading{
+    color: #6FB3B8;
+    font-size: 3rem;
+    text-align: center;
+}
+
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
