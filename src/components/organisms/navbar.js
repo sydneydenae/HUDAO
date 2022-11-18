@@ -2,7 +2,6 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import NameLogo from '../molecules/nameLogo'
 import {navbar,  navLinks, navLinkItem, navLinkText, appLogo, logoName} from './navbar.module.css'
-import logo from '../atoms/logo.png'
 
 
 

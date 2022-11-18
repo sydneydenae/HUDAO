@@ -1,6 +1,7 @@
 // Step 1: Import React
 import * as React from 'react'
 import Layout from '../components/templates/layout'
+import ImageGallery from '../components/organisms/imageGallery'
 
 // Step 2: Define your component
 const IndexPage = () => {
@@ -8,6 +9,7 @@ const IndexPage = () => {
       <Layout pageTitle="HUDAO">
         <h1>Uk us.</h1>
         <p>Where the therapist finds you.</p>
+        
     </Layout>
   )
 }
