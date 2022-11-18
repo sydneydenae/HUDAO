@@ -1,0 +1,20 @@
+.logo-molecule{
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    height: 90px;
+    width: 200px;
+}
+
+.app-logo{
+    width: 80px;
+    padding-left: 55px;
+}
+
+.logo-name{
+    color: white;
+    font-size: 2em;
+    margin-top: 0px;
+    text-decoration: none;
+    padding: 10px;
+}

@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { container,heading } from './layout.module.css'
-import Navbar from './navbar'
+import Navbar from '../organisms/navbar'
 
 const Layout = ({pageTitle, children}) => {
     return(
