@@ -2,7 +2,9 @@
 .container{
     color: black;
     font-family: sans-serif;
-   
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .heading{
@@ -11,10 +13,26 @@
     text-align: center;
 }
 
+.nav-in-lay{
+    flex-shrink: 0;
+
+}
+
+.content{
+    flex-grow: 1;
+    overflow-y: auto;
+    margin: 0px;
+    padding: 0px;
+    height: 735px;
+}
+
 body{
     margin: 0px;
     font-family: sans-serif;
     text-align: center;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
 }
 
 p {

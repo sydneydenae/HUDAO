@@ -6,20 +6,25 @@
     height: 90px;
     padding-right: 55px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+    width: 100%;
 }
 
+/*ul*/
 .nav-links {
     display: flex;
 }
+
+/*li elements*/
 .nav-link-item {
-    display: flex;
-    padding-right: 2rem;
+    list-style: none;
+    padding: 2rem;
 }
+
+/*link text*/
 .nav-link-text {
     text-decoration: none;
     color: #F6F6F2;
     font-size: 1.5em;
-    display: inline-block;
     position: relative;
 }
 

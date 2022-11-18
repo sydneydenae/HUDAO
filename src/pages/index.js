@@ -6,10 +6,10 @@ import ImageGallery from '../components/organisms/imageGallery'
 // Step 2: Define your component
 const IndexPage = () => {
   return (
-      <Layout pageTitle="HUDAO">
+    <Layout pageTitle="HUDAO">
         <h1>Uk us.</h1>
         <p>Where the therapist finds you.</p>
-        
+        <ImageGallery/>
     </Layout>
   )
 }
